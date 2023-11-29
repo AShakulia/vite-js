@@ -232,6 +232,29 @@
   line-height: 15px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (min-device-pixel-ratio: 2),
+       only screen and (min-resolution: 192dpi),
+       only screen and (min-resolution: 2dppx) {
+  .price {
+    background-image: url('../images/bg@2x.jpg');
+  }
+
+  .price__back {
+    background-image: url('../icons/icon_cross@2x.svg');
+  }
+
+  .price-album__item-img {
+    background-image: url('../images/album-item@2x.jpg');
+  }
+
+  .price-offer__best {
+    background-color: var(--ligth-bg-btn);
+  }
+}
+
 @media (max-width: 480px) and (max-height: 750px) {
   .price__inner {
     max-width: 375px;
