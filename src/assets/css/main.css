@@ -5,7 +5,7 @@
 .price {
   background-image: url(../images/bg.jpg);
   min-height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
   overflow: hidden;
@@ -215,7 +215,7 @@
 
 .price__links {
   position: absolute;
-  padding-top: 44px;
+  bottom: 31px;
   left: 50%;
   transform: translateX(-50%);
   width: 262px;
@@ -240,21 +240,9 @@
        only screen and (min-resolution: 2dppx) {
   .price {
     background-image: url('../images/bg@2x.jpg');
-  }
-
-  .price__back {
-    background-image: url('../icons/icon_cross@2x.svg');
-  }
-
-  .price-album__item-img {
-    background-image: url('../images/album-item@2x.jpg');
-  }
-
-  .price-offer__best {
-    background-color: var(--ligth-bg-btn);
+    background-size: cover;
   }
 }
-
 @media (max-width: 480px) and (max-height: 750px) {
   .price__inner {
     max-width: 375px;
@@ -303,7 +291,7 @@
   }
 
   .price__links {
-    padding-top: 28px;
+    bottom: 10.4px;
   }
 }
 
