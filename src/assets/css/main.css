@@ -3,7 +3,7 @@
 @import './default.css';
 
 .price {
-  background-image: url(../images/price-bg.svg);
+  background-image: url(../images/bg.jpg);
   min-height: 100vh;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@
 
 .price__links {
   position: absolute;
-  bottom: 31px;
+  padding-top: 44px;
   left: 50%;
   transform: translateX(-50%);
   width: 262px;
@@ -280,7 +280,7 @@
   }
 
   .price__links {
-    bottom: 10.5px;
+    padding-top: 28px;
   }
 }
 
