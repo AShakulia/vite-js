@@ -17,7 +17,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   buttonElement.addEventListener('click', function () {
     const isSelected = yearElement.classList.contains('active') || monthElement.classList.contains('active');
-    if (isSelected) {
+    if (isSelected && !yearElement.classList.contains('active')) {
+      // Переход на сайт Apple
+      window.location.href = 'https://www.apple.com';
+    } else if (isSelected && !monthElement.classList.contains('active')) {
+      // Переход на сайт Google
       window.location.href = 'https://www.google.com';
     }
   });
