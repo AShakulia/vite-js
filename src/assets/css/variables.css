@@ -1,0 +1,11 @@
+:root {
+  --light-text-color: #FFFFFF;
+  --dark-text-color: #070B33;
+  --linear-gradient-items: linear-gradient(#000000 0.01%, #04061A 0.01%,#060925 55.83%,#15072F 100%, #FFFFFF 20%);
+  --dark-bg-btn: #22202A;
+  --grey-bg-btn: #54525C;
+  --ligth-bg-btn: #FFFFFF;
+  --light-border-btn: #FFFFFF;
+  --dark-btn-text-color: #070B33;
+  --link-text-color: #474650;
+}

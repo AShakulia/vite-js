@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'SFPro';
+  src: url('../fonts/SFProDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 14px;
+}
+/* Использование шрифта */
+body {
+  font-family: 'SFPro', sans-serif;
+  font-size: 1rem;
+}
