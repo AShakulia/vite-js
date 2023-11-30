@@ -215,8 +215,7 @@
 
 .price__links {
   position: absolute;
-  bottom: 31px;
-  padding-top: 20px;
+  bottom: 2%;
   left: 50%;
   transform: translateX(-50%);
   width: 262px;
@@ -289,10 +288,6 @@
 
   .price-offer__item-group {
     height: 38px;
-  }
-
-  .price__links {
-    bottom: 10.4px;
   }
 }
 
